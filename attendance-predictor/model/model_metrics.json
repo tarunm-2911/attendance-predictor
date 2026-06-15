@@ -1,0 +1,16 @@
+{
+  "linear_regression": {
+    "r2_score": 0.9859,
+    "mae": 1.3869,
+    "rmse": 1.9879,
+    "accuracy_pct": 98.59
+  },
+  "random_forest": {
+    "r2_score": 0.9859,
+    "mae": 1.4153,
+    "rmse": 1.9877,
+    "accuracy_pct": 98.59,
+    "cv_mean": 0.9834,
+    "cv_std": 0.0027
+  }
+}

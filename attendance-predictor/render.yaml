@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: attendiq-backend
+    env: python
+    buildCommand: pip install -r backend/requirements.txt && cd dataset && python3 generate_dataset.py && cd ../model && python3 train_model.py
+    startCommand: cd backend && gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0

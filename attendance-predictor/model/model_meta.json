@@ -1,0 +1,14 @@
+{
+  "r2_score": 0.9931,
+  "mae": 1.1074,
+  "accuracy_pct": 99.31,
+  "training_samples": 800,
+  "test_samples": 200,
+  "features": [
+    "current_attendance_pct",
+    "future_classes",
+    "total_classes",
+    "attended"
+  ],
+  "model_type": "LinearRegression"
+}
